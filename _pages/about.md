@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Memorial Sloan Kettering Cancer Center</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Fellow in Computational Oncology. <a href='https://componcmsk.org/'>Memorial Sloan Kettering Cancer Center</a>.
 
 profile:
   align: right
