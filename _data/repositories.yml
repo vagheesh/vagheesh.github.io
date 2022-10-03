@@ -4,3 +4,5 @@ github_users:
 github_repos:
   - shahcompbio/spectrum-tme
   - ivazquez/clonal-heterogeneity
+  - ivazquez/cloneHD
+  - ivazquez/cloneHD-PCAWG

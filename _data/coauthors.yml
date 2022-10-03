@@ -2,33 +2,18 @@
   - firstname: ["Sohrab", "S.", "S. P.", "Sohrab Shah"]
     url: https://www.mskcc.org/profile/sohrab-shah
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Tavaré":
+  - firstname: ["Simon", "S.", "Simon Tavaré"]
+    url: https://tavarelab.cancerdynamics.columbia.edu/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Uhlitz":
+  - firstname: ["Florian", "F."]
+    url: http://uhlitz.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Williams":
+  - firstname: ["Marc", "M.", "M. J."]
+    url: https://marcjwilliams1.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Dentro":
+  - firstname: ["Stefan", "S.."]
+    url: https://scholar.google.com/citations?user=gQZYXQ4AAAAJ&hl=en
