@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-05-11 11:00:00-0400
 inline: true
 ---
 
-Work by David Hoyos, Ben Greenbaum, Marta Luksza and colleagues on “Fundamental immune–oncogenicity trade-offs define driver mutation fitness” has been accepted for publication in Nature!
+Work by David Hoyos, Ben Greenbaum, Marta Luksza and colleagues on immune–oncogenicity fitness trade-offs of TP53 driver mutations has been accepted for publication in [Nature](https://www.nature.com/articles/s41586-022-04696-z)!
