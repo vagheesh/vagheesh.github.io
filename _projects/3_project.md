@@ -47,6 +47,6 @@ You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/S_u-fIpurT8" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/S_u-fIpurT8" frameborder="0"></iframe>
 
 {% endraw %}
