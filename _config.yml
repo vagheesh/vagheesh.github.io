@@ -8,7 +8,7 @@ middle_name:
 last_name: Vázquez-García
 email: vazquezi@mskcc.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Research Fellow in Computational Oncology. [Memorial Sloan Kettering Cancer Center](https://componcmsk.org/) and [Columbia University](https://cancerdynamics.columbia.edu/).
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: mskcc, cancer, oncology, evolution, academic-website, portfolio-website  # add your own keywords or leave empty
@@ -108,7 +108,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
