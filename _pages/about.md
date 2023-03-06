@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Fellow in Computational Oncology. <a href='https://componcmsk.org/'>Memorial Sloan Kettering Cancer Center</a>.
+subtitle: Research Fellow in Computational Oncology. <a href='https://componcmsk.org/'>Memorial Sloan Kettering Cancer Center</a> and <a href='https://cancerdynamics.columbia.edu/'>Columbia University</a>.
 
 profile:
   align: right
