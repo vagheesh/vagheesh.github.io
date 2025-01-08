@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ignacio
 middle_name: 
 last_name: Vázquez-García
-email: vazquezi@mskcc.org
+email: ivazquez-garcia@mgh.harvard.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Fellow in Computational Oncology. [Memorial Sloan Kettering Cancer Center](https://componcmsk.org/) and [Columbia University](https://cancerdynamics.columbia.edu/).
+  Assistant Professor. [Massachusetts General Hospital](https://www.massgeneral.org/), [Harvard Medical School](https://hms.harvard.edu/) and [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/).
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: mskcc, cancer, oncology, evolution, academic-website, portfolio-website  # add your own keywords or leave empty
