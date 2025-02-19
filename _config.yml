@@ -172,6 +172,7 @@ exclude:
   - _pages/dropdown.md
   - _pages/projects.md
   - _pages/teaching.md
+  - _pages/team.md
   - blog
 keep_files:
   - CNAME
