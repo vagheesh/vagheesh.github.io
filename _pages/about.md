@@ -2,17 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor. <a href='https://www.massgeneral.org/'>Massachusetts General Hospital</a>, <a href='https://hms.harvard.edu/'>Harvard Medical School</a> and <a href='https://www.broadinstitute.org/'>Broad Institute of MIT and Harvard</a>.
-
-profile:
-  align: right
-  image: photo.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>Massachusetts General Hospital</p>
-    <p>149 13th Street</p>
-    <p>Boston, MA 02129</p>
-
+subtitle: <a href='https://www.massgeneral.org/'>Massachusetts General Hospital</a>, <a href='https://hms.harvard.edu/'>Harvard Medical School</a> and <a href='https://www.broadinstitute.org/'>Broad Institute of MIT and Harvard</a>.
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
