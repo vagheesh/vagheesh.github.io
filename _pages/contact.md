@@ -8,8 +8,19 @@ nav_order: 5
 pretty_table: true
 ---
 
-Massachusetts General Hospital       |    Broad Institute of MIT and Harvard
-149 13th Street       |    415 Main Street
-Boston, MA 02129       |    Cambridge, MA 02142
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Massachusetts General Hospital
+      149 13th Street
+      Boston, MA 02129 
+    </div>
+    <div class="col">
+      Broad Institute of MIT and Harvard
+      415 Main Street
+      Cambridge, MA 02142
+    </div>
+  </div>
+</div>
 
 {% google_map src="_data/locations.yml" %}
