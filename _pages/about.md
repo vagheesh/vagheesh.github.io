@@ -8,6 +8,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Our lab just opened in January 2025. We are interested in studying the mechanisms of spatio-temporal tumor evolution, progression and therapy response. Our current research focuses on scalable inference methods and modeling of single-cell genomic and in situ imaging data to study the co-evolution of the tumor and immune ecosystem.
+Our lab is interested in studying the mechanisms of spatio-temporal tumor evolution, progression and therapy response. Our current research focuses on scalable inference methods and modeling of single-cell genomic and in situ imaging data to study the co-evolution of the tumor and immune ecosystem.
 
 We are recruiting! More information about [joining the lab](/join/).
