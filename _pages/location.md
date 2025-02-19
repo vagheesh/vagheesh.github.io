@@ -7,4 +7,4 @@ nav: true
 nav_order: 4
 ---
 
-{% google_map src="_data/location.yml" %}
+{% google_map src="_data/locations.yml" %}
