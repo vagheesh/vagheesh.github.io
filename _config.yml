@@ -192,6 +192,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
+  - jekyll-maps
   - jemoji
 
 # Sitemap settings
@@ -294,6 +295,13 @@ jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
 
+# -----------------------------------------------------------------------------
+# Jekyll Maps
+# -----------------------------------------------------------------------------
+
+maps:
+  google:
+    api_key: AIzaSyDyCFwpX2BfYNbde6J1TYj87WD8sjZwigw
 
 # -----------------------------------------------------------------------------
 # Optional Features

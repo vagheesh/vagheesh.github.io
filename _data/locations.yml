@@ -1,0 +1,11 @@
+  - title: "Massachusetts General Hospital"
+    url: "https://www.massgeneral.org/cancer-center/clinical-trials-and-research/center-for-cancer-research"
+    location:
+      latitude: 42.3779016363921
+      longitude: -71.05171353123148
+  
+  - title: "Broad Institute of MIT and Harvard"
+    url: "https://www.broadinstitute.org/"
+    location:
+      latitude: 42.36298096245473
+      longitude: -71.08874411065933
