@@ -8,8 +8,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at [Harvard Medical School](https://hms.harvard.edu/) and [Massachusetts General Hospital](https://www.massgeneral.org/research/about/overview-of-the-research-institute), with an affiliation in the HMS/MGH Departments of Pathology and the MGH Cancer Center. I am also an Associate Member of the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/) as an Associate Member.
-
 Our lab just opened in January 2025. We are interested in studying the mechanisms of spatio-temporal tumor evolution, progression and therapy response. Our current research focuses on scalable inference methods and modeling of single-cell genomic and in situ imaging data to study the co-evolution of the tumor and immune ecosystem.
 
 Interested in joining the team?
