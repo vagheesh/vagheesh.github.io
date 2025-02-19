@@ -1,88 +1,107 @@
 ---
 layout: page
 permalink: /location/
-title: "Location"
+title: "location"
 description: 
 nav: true
 nav_order: 4
 ---
 
-<div class="container">
-  <h2>📍 Zoomed-In View: Boston & Cambridge, MA</h2>
-  <div id="echarts-map" style="width: 100%; height: 600px;"></div>
-</div>
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>Boston Map with Locations</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body style="height: 100%; margin: 0">
+    <div id="main" style="height: 100%"></div>
+    <script>
+        var chart = echarts.init(document.getElementById('main'));
 
-<!-- Load ECharts from CDN -->
-<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+        // Load GeoJSON data for Boston
+        fetch('https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/boston.geojson')
+            .then(response => response.json())
+            .then(geoJson => {
+                echarts.registerMap('Boston', geoJson);
 
-<script>
-  var chartDom = document.getElementById('echarts-map');
-  var myChart = echarts.init(chartDom, 'dark');
-  var option;
+                var option = {
+                    title: {
+                        text: 'Boston Map with Key Locations',
+                        left: 'center'
+                    },
+                    tooltip: {
+                        trigger: 'item',
+                        formatter: function (params) {
+                            return params.name || params.seriesName;
+                        }
+                    },
+                    geo: {
+                        map: 'Boston',
+                        roam: true,
+                        zoom: 1.2,
+                        center: [-71.085, 42.35],
+                        label: {
+                            show: true
+                        },
+                        itemStyle: {
+                            areaColor: '#d1e9ff',
+                            borderColor: '#111'
+                        },
+                        emphasis: {
+                            itemStyle: {
+                                areaColor: '#8ec1da'
+                            }
+                        }
+                    },
+                    series: [
+                        {
+                            name: 'Locations',
+                            type: 'scatter',
+                            coordinateSystem: 'geo',
+                            data: [
+                                { name: 'Massachusetts General Hospital', value: [-71.0695, 42.3626] },
+                                { name: 'Harvard Medical School', value: [-71.1040, 42.3365] }
+                            ],
+                            symbolSize: 12,
+                            label: {
+                                formatter: '{b}',
+                                position: 'right',
+                                show: true
+                            },
+                            itemStyle: {
+                                color: '#ff5722'
+                            }
+                        },
+                        {
+                            type: 'lines',
+                            coordinateSystem: 'geo',
+                            zlevel: 2,
+                            effect: {
+                                show: true,
+                                period: 6,
+                                trailLength: 0.7,
+                                color: '#ffdc34',
+                                symbolSize: 6
+                            },
+                            lineStyle: {
+                                color: '#ffa726',
+                                width: 2,
+                                opacity: 0.6,
+                                curveness: 0.2
+                            },
+                            data: [{
+                                coords: [
+                                    [-71.0695, 42.3626],
+                                    [-71.1040, 42.3365]
+                                ]
+                            }]
+                        }
+                    ]
+                };
 
-  option = {
-    backgroundColor: '#2c343c',
-    title: {
-      text: '📍 Zoomed-In Map: Boston & Cambridge, MA',
-      left: 'center',
-      textStyle: {
-        color: '#fff',
-        fontSize: 18
-      }
-    },
-    tooltip: {
-      trigger: 'item',
-      formatter: function (params) {
-        return `${params.name}<br/>Lat: ${params.value[1]}<br/>Lon: ${params.value[0]}`;
-      }
-    },
-    geo: {
-      map: 'world',
-      roam: true,
-      zoom: 12, // Increased zoom level for a close-up view
-      center: [-71.0589, 42.3601], // Centered on Boston
-      emphasis: {
-        label: {
-          show: false
-        }
-      },
-      itemStyle: {
-        areaColor: '#323c48',
-        borderColor: '#111'
-      }
-    },
-    series: [
-      {
-        name: 'Locations',
-        type: 'scatter',
-        coordinateSystem: 'geo',
-        symbolSize: 16,
-        label: {
-          show: true,
-          formatter: '{b}',
-          position: 'right',
-          color: '#fff'
-        },
-        itemStyle: {
-          color: '#ff7f50'
-        },
-        data: [
-          { name: 'Cambridge, MA', value: [-71.1097, 42.3736] },
-          { name: 'Boston, MA', value: [-71.0589, 42.3601] }
-        ]
-      }
-    ]
-  };
-
-  myChart.setOption(option);
-
-  // Click event to show detailed location info
-  myChart.on('click', function (params) {
-    alert(`📍 ${params.name}\nLatitude: ${params.value[1]}\nLongitude: ${params.value[0]}`);
-  });
-
-  window.addEventListener('resize', function () {
-    myChart.resize();
-  });
-</script>
+                chart.setOption(option);
+            });
+    </script>
+</body>
+</html>
