@@ -8,13 +8,13 @@ middle_name:
 last_name: Vázquez-García
 email: ivazquez-garcia@mgh.harvard.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Assistant Professor. [Massachusetts General Hospital](https://www.massgeneral.org/), [Harvard Medical School](https://hms.harvard.edu/) and [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/).
+  Vazquez-Garcia Lab @ [Massachusetts General Hospital](https://www.massgeneral.org/) | [Harvard Medical School](https://hms.harvard.edu/) | [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/).
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: mskcc, cancer, oncology, evolution, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: massachusetts-general-hospital, mgh, harvard-medical-school, hms, broad-institute, broad, cancer, oncology, evolution, artificial-intelligence, machine-learning, single-cell, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧬  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ivazquez.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
