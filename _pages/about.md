@@ -10,4 +10,4 @@ social: true  # includes social icons at the bottom of the page
 
 Our lab is interested in studying the mechanisms of spatio-temporal tumor evolution, progression and therapy response. Our current research focuses on scalable inference methods and modeling of single-cell genomic and in situ imaging data to study the co-evolution of the tumor and immune ecosystem.
 
-We are recruiting! More information about [joining the lab](/join/).
+We are recruiting! Find out more about [joining the lab](/join/).
