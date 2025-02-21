@@ -4,7 +4,7 @@ permalink: /join/
 title: "join"
 description: 
 nav: true
-nav_order: 4
+nav_order: 3
 pretty_table: true
 ---
 
@@ -19,4 +19,5 @@ pretty_table: true
 * **Prospective summer research students:** Undergraduates from around the world with exceptionally strong records are invited to apply for a summer research position. We are particularly interested in undergraduates planning on applying to HMS for a PhD. If you are a prospective summer student, consider applying to the [Broad Summer Research Program](https://www.broadinstitute.org/bsrp/broad-summer-research-program-bsrp).
 
 **Get in touch!**
+
 [ivazquez-garcia at mgh.harvard.edu](mailto:ivazquez-garcia@mgh.harvard.edu)
