@@ -17,4 +17,16 @@ profiles:
       <p>149 13th Street</p>
       <p>6-008</p>
       <p>Boston, MA, 02129</p>
+  - align: left
+    image: Druv_Patel.png
+    content: druv_patel.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: Rhea_Malhotra.png
+    content: rhea_malhotra.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: Julie_Tran.jpg
+    content: julie_tran.md
+    image_circular: false # crops the image to make it circular
 ---
