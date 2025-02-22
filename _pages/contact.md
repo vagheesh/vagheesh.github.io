@@ -21,4 +21,9 @@ pretty_table: true
       Cambridge, MA 02142
     </div>
   </div>
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="col">{% google_map src="_data/locations.yml" width="100%" height="800" no_cluster %}</div>
+  </div>
 </div>

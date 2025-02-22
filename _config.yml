@@ -250,7 +250,7 @@ plugins:
   - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
-  # - jekyll-maps
+  - jekyll-maps
   - jemoji
 
 # Sitemap settings
@@ -416,6 +416,8 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 maps:
   google:
     api_key: AIzaSyDyCFwpX2BfYNbde6J1TYj87WD8sjZwigw
+    marker_cluster:
+      enabled: false
 
 # -----------------------------------------------------------------------------
 # Optional Features

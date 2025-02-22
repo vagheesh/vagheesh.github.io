@@ -3,9 +3,11 @@
   location:
     latitude: 42.3779016363921
     longitude: -71.05171353123148
+    marker_icon: "https://www.massgeneral.org/assets/mgh/images/favicon/favicon-32x32.png"
 
 - title: "Broad Institute of MIT and Harvard"
   url: "https://www.broadinstitute.org/"
   location:
     latitude: 42.36298096245473
     longitude: -71.08874411065933
+    marker_icon: "https://www.broadinstitute.org/themes/custom/broad/favicon.ico"
