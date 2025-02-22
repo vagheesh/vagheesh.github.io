@@ -1,6 +1,8 @@
 github_users:
   - ivazquez
 
+repo_description_lines_max: 2
+
 github_repos:
   - shahcompbio/spectrum-tme
   - ivazquez/clonal-heterogeneity
