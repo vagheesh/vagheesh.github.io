@@ -104,7 +104,7 @@ contact_note:
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics:UA-84069905-1 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: UA-84069905-1 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -222,12 +222,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md
   - _pages/cv.md
   - _pages/dropdown.md
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/teaching.md
-  - _pages/profiles.md
   - blog
 keep_files:
   - CNAME
@@ -251,7 +251,7 @@ plugins:
   - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
-  - jekyll-maps
+  # - jekyll-maps
   - jemoji
 
 # Sitemap settings

@@ -22,5 +22,3 @@ pretty_table: true
     </div>
   </div>
 </div>
-
-{% google_map src="_data/locations.yml" %}
