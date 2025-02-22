@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: <a href='https://www.massgeneral.org/'>Massachusetts General Hospital</a> | <a href='https://hms.harvard.edu/'>Harvard Medical School</a> | <a href='https://www.broadinstitute.org/'>Broad Institute of MIT and Harvard</a>
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items

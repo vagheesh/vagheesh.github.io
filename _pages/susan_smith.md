@@ -1,2 +1,3 @@
 ### Susan Smith
-*Administrative Assistant*
+
+_Administrative Assistant_
