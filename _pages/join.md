@@ -16,7 +16,7 @@ pretty_table: true
 
 * **Prospective undergraduate students:** Talented undergraduates interested in spending significant time in the lab are encouraged to [email Ignacio](mailto:ivazquez-garcia@mgh.harvard.edu) a resume and (unofficial) transcript. The laboratory works hard to include exceptional undergraduates in the life of the lab.
 
-* **Prospective summer research students:** Undergraduates from around the world with exceptionally strong records are invited to apply for a summer research position. We are particularly interested in undergraduates planning on applying to HMS for a PhD. If you are a prospective summer student, consider applying to the [Broad Summer Research Program](https://www.broadinstitute.org/bsrp/broad-summer-research-program-bsrp).
+* **Prospective summer research students:** Undergraduates with exceptionally strong records are invited to apply for a summer research position. We are particularly interested in undergraduates planning on applying to HMS for a PhD. If you are a prospective summer student, consider applying to the [Broad Summer Research Program](https://www.broadinstitute.org/bsrp/broad-summer-research-program-bsrp) and the [Dana Farber/Harvard Cancer Center CURE Program](https://www.dfhcc.harvard.edu/research/cancer-disparities/students/cure-overview).
 
 **Get in touch!**
 
