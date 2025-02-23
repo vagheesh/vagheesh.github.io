@@ -227,6 +227,7 @@ exclude:
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/teaching.md
+  - _pages/support.md
   - blog
 keep_files:
   - CNAME
