@@ -3,7 +3,7 @@ layout: page
 title: Druv Patel
 description: 2019 MSK Computational Biology Summer Program; Data Engineer, MSK-MIND
 img: assets/img/Druv_Patel.png
-importance: 4
+importance: 5
 category: alumni
 related_publications: false
 ---
