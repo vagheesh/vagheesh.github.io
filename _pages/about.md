@@ -18,7 +18,7 @@ latest_posts:
 
 scholar:
   sort_by: year
-  order: descending  # can be either "ascending" or "descending"
+  order: descending # can be either "ascending" or "descending"
 ---
 
 Our lab is interested in studying the mechanisms of spatio-temporal tumor evolution, progression and therapy response. Our current research focuses on scalable inference methods and modeling of single-cell genomic and in situ imaging data to study the co-evolution of the tumor and immune ecosystem.
