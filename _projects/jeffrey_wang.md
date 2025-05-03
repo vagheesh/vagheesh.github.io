@@ -2,7 +2,7 @@
 layout: page
 title: Jeffrey Wang
 description: Undergraduate Intern
-# img: assets/img/Jeffrey_Wang.png
+img: assets/img/Jeffrey_Wang.jpg
 importance: 3
 category: current
 related_publications: false
