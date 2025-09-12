@@ -4,7 +4,7 @@ title: Oprah Nkera
 description: DF/HCC YES for CURE Program
 img: assets/img/Oprah_Nkera.jpg
 importance: 5
-category: current
+category: alumni
 related_publications: false
 ---
 
