@@ -8,6 +8,6 @@ category: alumni
 related_publications: false
 ---
 
-**Previous:** Undergraduate student - Northeastern University (CS + Biology)
+**Previous:** Undergraduate Student - Northeastern University (CS + Biology)
 
-**Current:** Master's student - Carnegie Mellon University (Computational Biology)
+**Current:** Master's Student - Carnegie Mellon University (Computational Biology)
