@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.massgeneral.org/'>Massachusetts General Hospital</a> | <a href='https://hms.harvard.edu/'>Harvard Medical School</a> | <a href='https://www.broadinstitute.org/'>Broad Institute of MIT and Harvard</a>
+subtitle: <a href='https://www.utexas.edu'> The University of Texas at Austin</a> |  <a href='https://www.utexas.edu'> Integrative Biology </a>  |  <a href='https://www.utexas.edu'> Statistics and Data Science</a> 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -21,6 +21,7 @@ scholar:
   order: descending # can be either "ascending" or "descending"
 ---
 
-Our lab is interested in studying the mechanisms of spatio-temporal tumor evolution, progression and therapy response. Our current research focuses on scalable inference methods and modeling of single-cell genomic and in situ imaging data to study the co-evolution of the tumor and immune ecosystem.
+A single human zygote contains all the necessary information to develop into a complete human being and simultaneously carries within it the evolutionary history of our species. Our lab works at the interface of genetics, computer science and statistics and works on genomic information theory. We seek to understand the genetic basis of disease as well as understand human evolution.
+
 
 We are recruiting! Find out more about [joining the lab](/join/).
