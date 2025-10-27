@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: <a href='https://www.utexas.edu'> The University of Texas at Austin</a> |  <a href='https://www.utexas.edu'> Integrative Biology </a>  |  <a href='https://www.utexas.edu'> Statistics and Data Science</a> 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -21,7 +21,8 @@ scholar:
   order: descending # can be either "ascending" or "descending"
 ---
 
-A single human zygote contains all the necessary information to develop into a complete human being and simultaneously carries within it the evolutionary history of our species. Our lab works at the interface of genetics, computer science and statistics and works on genomic information theory. We seek to understand the genetic basis of disease as well as understand human evolution.
+We are an interdisciplinary group working at the intersection of computer science, genetics and statistics.
 
+We work across two main themes, combining imaging, genetics and electronic health record data at the scale of millions of individuals to understand the genetic basis of human evolution, aging, development and disease. 
 
 We are recruiting! Find out more about [joining the lab](/join/).
