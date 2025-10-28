@@ -44,13 +44,13 @@
         <div class="collapse navbar-collapse text-right" id="navbarNav">
         <img src="/assets/img/BannerBlack.svg" alt="Narasimhan Lab" style="max-width: 350px; height: auto;">
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">about <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="/team/">team</a></li>
-            <li class="nav-item"><a class="nav-link" href="/publications/">publications</a></li>
-            <li class="nav-item"><a class="nav-link" href="/join/">join</a></li>
-            <li class="nav-item"><a class="nav-link" href="/contact/">contact</a></li>
+  			<li class="nav-item active">
+    			<a class="nav-link" href="#about">about <span class="sr-only">(current)</span></a>
+  			</li>
+			<li class="nav-item"><a class="nav-link" href="#team">team</a></li>
+			<li class="nav-item"><a class="nav-link" href="#publications">publications</a></li>
+			<li class="nav-item"><a class="nav-link" href="#join">join</a></li>
+			<li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
@@ -77,32 +77,50 @@
   <div class="container mt-5" role="main">
     <div class="post">
 
-      <article>
-        <div class="clearfix">
-          <p>
-            We are an interdisciplinary group at the intersection of computer science, genetics and statistics. We often generate hypotheses and candidates using some of the largest datasets available in the biological sciences, and then validate them using molecular approaches.
-          </p>
-          <p>
-            The main research areas of our group are:
-            1) Multi-modal AI to combine imaging, genetic and health record data at the scale of millions of individuals to understand the genetic basis of human evolution, development, aging, and disease.
-            2) Using the unique resource presented by ancient DNA which allows us to sequence human genomes from thousands of years ago to understand the genetic origin of our species.
-          </p>
-          <p>We are recruiting! Find out more about <a href="/join/">joining the lab</a>.</p>
-        </div>
+          <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        We are an interdisciplinary group at the intersection of computer science, genetics and statistics. ...
+      </p>
+      <p>
+        The main research areas of our group are:
+        1) Multi-modal AI ...
+        2) Using ancient DNA ...
+      </p>
+    </section>
 
-        <h2><a href="/publications/" style="color: inherit">selected publications</a></h2>
-        <div class="publications">
-          <ol class="bibliography"></ol>
-        </div>
+    <!-- Team Section -->
+    <section id="team" class="mt-5">
+      <h2>Team</h2>
+      <p>Details about lab members or photos could go here.</p>
+    </section>
 
-        <div class="social">
-          <div class="contact-icons">
-            <a href="mailto:%69%76%61%7A%71%75%65%7A-%67%61%72%63%69%61@%6D%67%68.%68%61%72%76%61%72%64.%65%64%75" title="email"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://github.com/ivazquez" target="_blank" rel="external nofollow noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="https://scholar.google.com/citations?user=gXZbQ3cAAAAJ" target="_blank" rel="external nofollow noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          </div>
+    <!-- Publications Section -->
+    <section id="publications" class="mt-5">
+      <h2>Selected Publications</h2>
+      <div class="publications">
+        <ol class="bibliography"></ol>
+      </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="mt-5">
+      <h2>Join</h2>
+      <p>We are recruiting! Find out more about joining the lab.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mt-5">
+      <h2>Contact</h2>
+      <div class="social">
+        <div class="contact-icons">
+          <a href="mailto:%69%76%61..." title="email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/ivazquez" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://scholar.google.com/..." target="_blank"><i class="ai ai-google-scholar"></i></a>
         </div>
-      </article>
+      </div>
+    </section>
     </div>
   </div>
 
