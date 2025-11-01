@@ -10,73 +10,72 @@
     <meta name="description" content="Publications in reversed chronological order.">
     <meta name="keywords" content="genetics, artificial intelligence">
 
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
-    <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
-    <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
-    <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
-    <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" id="highlight_theme_light">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/academicons.min.css">
+    <link rel="stylesheet" href="/assets/css/scholar-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap">
+    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css" id="highlight_theme_light">
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%AC&lt;/text&gt;&lt;/svg&gt;">
-    <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://vagheesh.cns.utexas.edu/publications/">
-    <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
-    <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
-    <script>
-      initTheme();
-    </script>
+    <script src="/assets/js/theme.js"></script>
+    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css" media="none" id="highlight_theme_dark">
+    <script>initTheme();</script>
   </head>
 
   <body class="fixed-top-nav sticky-bottom-footer">
-   <header>
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
-      <div class="container">
-        <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar top-bar"></span>
-          <span class="icon-bar middle-bar"></span>
-          <span class="icon-bar bottom-bar"></span>
-        </button>
-
-        <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <img src="/assets/img/BannerBlack.svg" alt="Narasimhan Lab" style="max-width: 350px; height: auto;">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-  			<li class="nav-item active">
-    			<a class="nav-link" href="/">about <span class="sr-only">(current)</span></a>
-  			</li>
-  			<li class="nav-item"><a class="nav-link" href="/research/">research</a></li>
-  			<li class="nav-item"><a class="nav-link" href="/team/">team</a></li>
-  			<li class="nav-item"><a class="nav-link" href="/publications/">publications</a></li>
-  			<li class="nav-item"><a class="nav-link" href="/join/">join</a></li>
-  			<li class="nav-item"><a class="nav-link" href="/contact/">contact</a></li>
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
-              </button>
-            </li>
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          </ul>
+    <header>
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+        <div class="container">
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <img src="/assets/img/BannerBlack.svg" alt="Narasimhan Lab" style="max-width: 350px; height: auto;">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+              <li class="nav-item active"><a class="nav-link" href="/">about <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="/research/">research</a></li>
+              <li class="nav-item"><a class="nav-link" href="/team/">team</a></li>
+              <li class="nav-item"><a class="nav-link" href="/publications/">publications</a></li>
+              <li class="nav-item"><a class="nav-link" href="/join/">join</a></li>
+              <li class="nav-item"><a class="nav-link" href="/contact/">contact</a></li>
+              <li class="nav-item">
+                <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                  <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                </button>
+              </li>
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                  <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                  <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <progress id="progress" value="0">
-      <div class="progress-container">
-        <span class="progress-bar"></span>
-      </div>
-    </progress>
-  </header>
+      </nav>
+      <progress id="progress" value="0">
+        <div class="progress-container"><span class="progress-bar"></span></div>
+      </progress>
+    </header>
 
     <div class="container mt-5" role="main">
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">Selected publications</h1>
-          <p class="post-description">Publications in reversed chronological order. Full publication list on <a href="https://scholar.google.com/citations?user=MBX-VAwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"> Google scholar</a></p>
+          <p class="post-description">
+            Publications in reversed chronological order.  
+            Full publication list on
+            <a href="https://scholar.google.com/citations?user=MBX-VAwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+              Google Scholar
+            </a>
+          </p>
         </header>
 
         <article>
@@ -87,7 +86,9 @@
             <ol class="bibliography">
               <li>
                 <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
+                  <div class="col col-sm-2 abbr">
+                    <figure><img src="/assets/img/publication_preview/pelvis.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="xu2025genetic" loading="lazy"></figure>
+                  </div>
                   <div id="xu2025genetic" class="col-sm-8">
                     <div class="title">The genetic architecture of and evolutionary constraints on the human pelvic form</div>
                     <div class="author">Liaoyi Xu, Eucharist Kun, Devansh Pandey, Joyce Y Wang, Marianne F Brasil, Tarjinder Singh, and <em>Vagheesh M. Narasimhan</em></div>
@@ -98,10 +99,12 @@
 
               <li>
                 <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
+                  <div class="col col-sm-2 abbr">
+                    <figure><img src="/assets/img/publication_preview/uralic.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="zeng2025ancient" loading="lazy"></figure>
+                  </div>
                   <div id="zeng2025ancient" class="col-sm-8">
                     <div class="title">Ancient DNA reveals the prehistory of the Uralic and Yeniseian peoples</div>
-                    <div class="author">Tian Chen Zeng, Leonid A. Vyazov, Alexander Kim, Pavel Flegontov, Kendra Sirak, Robert Maier, Iosif Lazaridis, Ali Akbari, Michael Frachetti, Alexey A. Tishkin, Natalia E. Ryabogina, Sergey A. Agapov, Danila S. Agapov, Anatoliy N. Alekseev, Gennady G. Boeskorov, Anatoly P. Derevianko, Viktor M. Dyakonov, Dmitry N. Enshin, Alexey V. Fribus, Yaroslav V. Frolov, Sergey P. Grushin, Alexander A. Khokhlov, Kirill Yu. Kiryushin, Yurii F. Kiryushin, Egor P. Kitov, Pavel Kosintsev, Igor V. Kovtun, Nikolai P. Makarov, Viktor V. Morozov, Egor N. Nikolaev, Marina P. Rykun, Tatyana M. Savenkova, Marina V. Shchelchkova, Vladimir Shirokov, Svetlana N. Skochina, Olga S. Sherstobitova, Sergey M. Slepchenko, Konstantin N. Solodovnikov, Elena N. Solovyova, Aleksandr D. Stepanov, Aleksei A. Timoshchenko, Aleksandr S. Vdovin, Anton V. Vybornov, Elena V. Balanovska, Stanislav Dryomov, Garrett Hellenthal, Kenneth Kidd, Johannes Krause, Elena Starikovskaya, Rem Sukernik, Tatiana Tatarinova, Mark G. Thomas, Maxat Zhabagin, Kim Callan, Olivia Cheronet, Daniel Fernandes, Denise Keating, Francesca Candilio, Lora Iliev, Aisling Kearns, Kadir Toykan Özdoğan, Matthew Mah, Adam Micco, Megan Michel, Iñigo Olalde, Fatma Zalzala, Swapan Mallick, Nadin Rohland, Ron Pinhasi, <em>Vagheesh M. Narasimhan*</em> and David Reich* </div>
+                    <div class="author">Tian Chen Zeng, Leonid A. Vyazov, Alexander Kim, Pavel Flegontov, Kendra Sirak, Robert Maier, Iosif Lazaridis, Ali Akbari, Michael Frachetti, Alexey A. Tishkin, Natalia E. Ryabogina, Sergey A. Agapov, Danila S. Agapov, Anatoliy N. Alekseev, Gennady G. Boeskorov, Anatoly P. Derevianko, Viktor M. Dyakonov, Dmitry N. Enshin, Alexey V. Fribus, Yaroslav V. Frolov, Sergey P. Grushin, Alexander A. Khokhlov, Kirill Yu. Kiryushin, Yurii F. Kiryushin, Egor P. Kitov, Pavel Kosintsev, Igor V. Kovtun, Nikolai P. Makarov, Viktor V. Morozov, Egor N. Nikolaev, Marina P. Rykun, Tatyana M. Savenkova, Marina V. Shchelchkova, Vladimir Shirokov, Svetlana N. Skochina, Olga S. Sherstobitova, Sergey M. Slepchenko, Konstantin N. Solodovnikov, Elena N. Solovyova, Aleksandr D. Stepanov, Aleksei A. Timoshchenko, Aleksandr S. Vdovin, Anton V. Vybornov, Elena V. Balanovska, Stanislav Dryomov, Garrett Hellenthal, Kenneth Kidd, Johannes Krause, Elena Starikovskaya, Rem Sukernik, Tatiana Tatarinova, Mark G. Thomas, Maxat Zhabagin, Kim Callan, Olivia Cheronet, Daniel Fernandes, Denise Keating, Francesca Candilio, Lora Iliev, Aisling Kearns, Kadir Toykan Özdoğan, Matthew Mah, Adam Micco, Megan Michel, Iñigo Olalde, Fatma Zalzala, Swapan Mallick, Nadin Rohland, Ron Pinhasi, <em>Vagheesh M. Narasimhan*</em> and David Reich*</div>
                     <div class="periodical"><em>Nature</em>, 2025</div>
                   </div>
                 </div>
@@ -113,7 +116,9 @@
             <ol class="bibliography">
               <li>
                 <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
+                  <div class="col col-sm-2 abbr">
+                    <figure><img src="/assets/img/publication_preview/hpe.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="kun2023genetic" loading="lazy"></figure>
+                  </div>
                   <div id="kun2023genetic" class="col-sm-8">
                     <div class="title">The genetic architecture and evolution of the human skeletal form</div>
                     <div class="author">Eucharist Kun, Emily M Javan, Olivia Smith, Faris Gulamali, Javier Fuente, Brianna I Flynn, Kushal Vajrala, Zoe Trutner, Prakash Jayakumar, Elliot M Tucker-Drob, Mashaal Sohail, Tarjinder Singh and <em>Vagheesh M. Narasimhan</em></div>
@@ -128,7 +133,9 @@
             <ol class="bibliography">
               <li>
                 <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
+                  <div class="col col-sm-2 abbr">
+                    <figure><img src="/assets/img/publication_preview/india.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="narasimhan2019formation" loading="lazy"></figure>
+                  </div>
                   <div id="narasimhan2019formation" class="col-sm-8">
                     <div class="title">The formation of human populations in South and Central Asia</div>
                     <div class="author"><em>Vagheesh M. Narasimhan</em>, Nick Patterson, Priya Moorjani, Nadin Rohland, Rebecca Bernardos, Swapan Mallick, Iosif Lazaridis, Nathan Nakatsuka, Iñigo Olalde, Mark Lipson, Alexander M. Kim, Luca M. Olivieri, Alfredo Coppa, Massimo Vidale, James Mallory, Vyacheslav Moiseyev, Egor Kitov, Janet Monge, Nicole Adamski, Neel Alex, Nasreen Broomandkhoshbacht, Francesca Candilio, Kimberly Callan, Olivia Cheronet, Brendan J. Culleton, Matthew Ferry, Daniel Fernandes, Suzanne Freilich, Beatriz Gamarra, Daniel Gaudio, Mateja Hajdinjak, Éadaoin Harney, Thomas K. Harper, Denise Keating, Ann Marie Lawson, Matthew Mah, Kirsten Mandl, Megan Michel, Mario Novak, Jonas Oppenheimer, Niraj Rai, Kendra Sirak, Viviane Slon, Kristin Stewardson, Fatma Zalzala, Zhao Zhang, Gaziz Akhatov, Anatoly N. Bagashev, Alessandra Bagnera, Bauryzhan Baitanayev, Julio Bendezu-Sarmiento, Arman A. Bissembayev, Gian Luca Bonora, Temirlan T. Chargynov, Tatiana Chikisheva, Petr K. Dashkovskiy, Anatoly Derevianko, Miroslav Dobeš, Katerina Douka, Nadezhda Dubova, Meiram N. Duisengali, Dmitry Enshin, Andrey Epimakhov, Alexey V. Fribus, Dorian Fuller, Alexander Goryachev, Andrey Gromov, Sergey P. Grushin, Bryan Hanks, Margaret Judd, Erlan Kazizov, Aleksander Khokhlov, Aleksander P. Krygin, Elena Kupriyanova, Pavel Kuznetsov, Donata Luiselli, Farhod Maksudov, Aslan M. Mamedov, Talgat B. Mamirov, Christopher Meiklejohn, Deborah C. Merrett, Roberto Micheli, Oleg Mochalov, Samariddin Mustafokulov, Ayushi Nayak, Davide Pettener, Richard Potts, Dmitry Razhev, Marina Rykun, Stefania Sarno, Tatyana M. Savenkova, Kulyan Sikhymbaeva, Sergey M. Slepchenko, Oroz A. Soltobaev, Nadezhda Stepanova, Svetlana Svyatko, Kubatbek Tabaldiev, Maria Teschler-Nicola, Alexey A. Tishkin, Vitaly V. Tkachev, Sergey Vasilyev, Petr Velemínský, Dmitriy Voyakin, Antonina Yermolayeva, Muhammad Zahir, Valery S. Zubkov, Alisa Zubova, Vasant S. Shinde, Carles Lalueza-Fox, Matthias Meyer, David Anthony, Nicole Boivin, Kumarasamy Thangaraj, Douglas J. Kennett, Michael Frachetti, Ron Pinhasi, and David Reich</div>
@@ -136,33 +143,16 @@
                   </div>
                 </div>
               </li>
-            </ol>
-            
-            <!-- === 2019 === -->
-            <h2 class="bibliography">2019</h2>
-            <ol class="bibliography">
+
               <li>
                 <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
-                  <div id="narasimhan2019formation" class="col-sm-8">
+                  <div class="col col-sm-2 abbr">
+                    <figure><img src="/assets/img/publication_preview/harappa.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="shinde2019harappan" loading="lazy"></figure>
+                  </div>
+                  <div id="shinde2019harappan" class="col-sm-8">
                     <div class="title">An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers</div>
                     <div class="author">Vasant Shinde*, <em>Vagheesh M. Narasimhan*</em>, Nadin Rohland, Swapan Mallick, Matthew Mah, Mark Lipson, Nathan Nakatsuka, Nicole Adamski, Nasreen Broomandkoshbacht, Matthew Ferry, Ann Marie Lawson, Megan Michel, Jonas Oppenheimer, Kristin Stewardson, Nilesh Jadhav, Yong Jun Kim, Malvika Chaterjee, Avradeep Munshi, Amrithavalli Panyam, Pranjali Waghmare, Yogesh Yadav, Himani Patel, Amit Kaushik, Kumarasamy Thangaraj, Matthias Meyer, Nick Patterson, Niraj Rai, and David Reich</div>
                     <div class="periodical"><em>Cell</em>, 2019</div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-
-            <!-- === 2018 === -->
-            <h2 class="bibliography">2018</h2>
-            <ol class="bibliography">
-              <li>
-                <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
-                  <div id="hajdinjak2018reconstructing" class="col-sm-8">
-                    <div class="title">Reconstructing the genetic history of late Neanderthals</div>
-                    <div class="author">Mateja Hajdinjak, Qiaomei Fu, Alexander Hübner, Martin Petr, Fabrizio Mafessoni, Steffi Grote, Pontus Skoglund, <em>Vagheesh M. Narasimhan</em>, Hélène Rougier, Isabelle Crevecoeur, Patrick Semal, Marie Soressi, Sahra Talamo, Jean-Jacques Hublin, Ivan Gušić, Željko Kućan, Pavao Rudan, Liubov V. Golovanova, Vladimir B. Doronichev, Cosimo Posth, Johannes Krause, Petra Korlević, Sarah Nagel, Birgit Nickel, Montgomery Slatkin, Nick Patterson, David Reich, Kay Prüfer, Matthias Meyer, Svante Pääbo & Janet Kelso </div>
-                    <div class="periodical"><em>Nature</em>, 2018</div>
                   </div>
                 </div>
               </li>
@@ -173,11 +163,13 @@
             <ol class="bibliography">
               <li>
                 <div class="row">
-                  <div class="col col-sm-2 abbr"></div>
-                  <div id="narasimhan2016health" class="col-sm-8">
-                    <div class="title">Health and population effects of rare gene knockouts in adult humans with related parents</div>
-                    <div class="author"><em>Vagheesh M. Narasimhan</em>, Karen A Hunt, Dan Mason, Christopher L Baker, Konrad J Karczewski, Michael R Barnes, Anthony H Barnett, Chris Bates, Srikanth Bellary, Nicholas A Bockett, and others</div>
-                    <div class="periodical"><em>Science</em>, 2016</div>
+                  <div class="col col-sm-2 abbr">
+                    <figure><img src="/assets/img/publication_preview/publication7.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="narasimhan2016aligning" loading="lazy"></figure>
+                  </div>
+                  <div id="narasimhan2016aligning" class="col-sm-8">
+                    <div class="title">Aligning and merging illuminations of genomes</div>
+                    <div class="author"><em>Vagheesh M. Narasimhan</em>, Francesco Antonacci, Susan R. Browning, Sharon R. Browning, and Evan E. Eichler</div>
+                    <div class="periodical"><em>Nature Methods</em>, 2016</div>
                   </div>
                 </div>
               </li>
@@ -189,32 +181,12 @@
               <li>
                 <div class="row">
                   <div class="col col-sm-2 abbr">
-                    <figure>
-                      <picture>
-                        <source class="responsive-img-srcset"
-                          srcset="/assets/img/publication_preview/fischer2014high-480.webp 480w,
-                                  /assets/img/publication_preview/fischer2014high-800.webp 800w,
-                                  /assets/img/publication_preview/fischer2014high-1400.webp 1400w,"
-                          type="image/webp" sizes="200px">
-                        <img src="/assets/img/publication_preview/fischer2014high.jpg"
-                             class="preview z-depth-1 rounded"
-                             width="100%" height="auto"
-                             alt="fischer2014high.jpg"
-                             data-zoomable loading="eager"
-                             onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-                      </picture>
-                    </figure>
+                    <figure><img src="/assets/img/publication_preview/publication8.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="narasimhan2014localizing" loading="lazy"></figure>
                   </div>
-                  <div id="fischer2014high" class="col-sm-8">
-                    <div class="title">Mountain gorilla genomes reveal the impact of long-term population decline and inbreeding</div>
-                    <div class="author">Yali Xue, Javier Prado-Martinez, Peter H Sudmant, <em>Vagheesh M. Narasimhan</em>, Qasim Ayub, Michal Szpak, Peter Frandsen, Yuan Chen, Bryndis Yngvadottir, David N Cooper, Marc De Manuel, Jessica Hernandez-Rodriguez, Irene Lobon, Hans R Siegismund, Luca Pagani, Michael A Quail, Christina Hvilsom, Antoine Mudakikwa, Evan E Eichler, Michael R Cranfield, Tomas Marques-Bonet, Chris Tyler-Smith, Aylwyn Scally</div>
-                    <div class="periodical"><em>Science</em>, 2014</div>
-                    <div class="links">
-                      <a href="https://doi.org/10.1016/j.celrep.2014.04.055" class="btn btn-sm z-depth-0" target="_blank">HTML</a>
-                      <a href="https://www.sciencedirect.com/science/article/pii/S2211124714003738/pdfft?md5=8c8cc27161ccc5bbf27155a12e444f82&amp;pid=1-s2.0-S2211124714003738-main.pdf" class="btn btn-sm z-depth-0" target="_blank">PDF</a>
-                      <a href="https://github.com/ivazquez/cloneHD" class="btn btn-sm z-depth-0" target="_blank">Code</a>
-                      <a href="https://www.sanger.ac.uk/tool/clonehd/" class="btn btn-sm z-depth-0" target="_blank">Website</a>
-                    </div>
+                  <div id="narasimhan2014localizing" class="col-sm-8">
+                    <div class="title">Localizing recent adaptive evolution in the human genome</div>
+                    <div class="author"><em>Vagheesh M. Narasimhan</em>, Pier Francesco Palamara, Daniel J. Lawson, Giulio Genovese, Nick Patterson, Alkes L. Price, David Reich, and Simon C. Myers</div>
+                    <div class="periodical"><em>Cell</em>, 2014</div>
                   </div>
                 </div>
               </li>
@@ -225,49 +197,6 @@
       </div>
     </div>
 
-    <footer class="sticky-bottom mt-5" role="contentinfo">
-      <div class="container">
-        © Copyright 2025 Vagheesh M. Narasimhan.
-        Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
-        with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
-    <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" crossorigin="anonymous"></script>
-    <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
-    <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
-    <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
-    <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f"></script>
-    <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
-    <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-    <script async src="https://badge.dimensions.ai/badge.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
-    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84069905-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'UA-84069905-1');
-    </script>
-    <script defer src="/assets/js/google-analytics-setup.js?12374742c4b1801ba82226e617af7e2d"></script>
-    <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a"></script>
-    <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
-    <script>
-      addBackToTop();
-    </script>
-    <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
-    <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
-    <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
-    <script src="/assets/js/search-data.js"></script>
-    <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
-  </body>
-</html>
+<footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2025 Vagheesh M. Narasimhan. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme. </div> </footer>
+    
+    <!-- Scripts --> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84069905-1"></script> <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-84069905-1'); </script> <script defer src="/assets/js/google-analytics-setup.js?12374742c4b1801ba82226e617af7e2d"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script> addBackToTop(); </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
