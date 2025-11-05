@@ -27,6 +27,19 @@
   <script>
     initTheme();
   </script>
+
+  <style>
+    .contact-box {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    iframe {
+      border-radius: 10px;
+    }
+  </style>
 </head>
 
 <body class="fixed-top-nav sticky-bottom-footer">
@@ -43,12 +56,12 @@
         <div class="collapse navbar-collapse text-right" id="navbarNav">
           <img src="/assets/img/BannerBlack.svg" alt="Narasimhan Lab" style="max-width: 350px; height: auto;">
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item"><a class="nav-link" href="/">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
-            <li class="nav-item"><a class="nav-link" href="/team/">Team</a></li>
-            <li class="nav-item"><a class="nav-link" href="/publications/">Publications</a></li>
-            <li class="nav-item"><a class="nav-link" href="/join/">Join</a></li>
-            <li class="nav-item active"><a class="nav-link" href="/contact/">Contact <span
+            <li class="nav-item"><a class="nav-link" href="/">about</a></li>
+            <li class="nav-item"><a class="nav-link" href="/research/">research</a></li>
+            <li class="nav-item"><a class="nav-link" href="/team/">team</a></li>
+            <li class="nav-item"><a class="nav-link" href="/publications/">publications</a></li>
+            <li class="nav-item"><a class="nav-link" href="/join/">join</a></li>
+            <li class="nav-item active"><a class="nav-link" href="/contact/">contact <span
                   class="sr-only">(current)</span></a></li>
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
@@ -73,20 +86,28 @@
         <p class="post-description">get in touch</p>
       </header>
 
-      <article>
-        <div class="content mt-4">
-          <p>
-            <strong>Vagheesh M. Narasimhan Lab</strong><br>
-            Neural Molecular Science Building, Room 4.104<br>
-            2506 Speedway<br>
-            Austin, TX 78712<br>
-            <a href="mailto:vagheesh@austin.utexas.edu">vagheesh@austin.utexas.edu</a>
-          </p>
+      <article class="mt-4">
+        <div class="row align-items-start">
+          <!-- Address -->
+          <div class="col-md-5 mb-4">
+            <div class="contact-box">
+              <p>
+                <strong>Vagheesh M. Narasimhan Lab</strong><br>
+                Neural Molecular Science Building, Room 4.104<br>
+                2506 Speedway<br>
+                Austin, TX 78712<br>
+                <a href="mailto:vagheesh@austin.utexas.edu">vagheesh@austin.utexas.edu</a>
+              </p>
+            </div>
+          </div>
 
-          <div class="map-wrapper text-center mt-4">
-            <iframe
-              src="https://www.google.com/maps?q=Neural+Molecular+Science+Building,+2506+Speedway,+Austin,+TX+78712&output=embed"
-              width="80%" height="400" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+          <!-- Map -->
+          <div class="col-md-7 mb-4">
+            <div class="contact-box">
+              <iframe
+                src="https://www.google.com/maps?q=Neural+Molecular+Science+Building,+2506+Speedway,+Austin,+TX+78712&output=embed"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
           </div>
         </div>
       </article>
