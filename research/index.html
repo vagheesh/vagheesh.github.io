@@ -1,94 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Research | Narasimhan Lab</title>
-    <meta name="author" content="Vagheesh Narasimhan" />
-    <meta
-      name="description"
-      content="Research areas of the Narasimhan Lab at The University of Texas at Austin."
-    />
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <style>
-      .research-section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 70px 0;
-        flex-wrap: wrap;
-      }
-      .research-text {
-        flex: 1;
-        padding: 20px;
-        font-size: 1.05rem;
-        line-height: 1.6;
-      }
-      .research-image {
-        flex: 1;
-        max-width: 45%;
-        border-radius: 15px;
-        overflow: hidden;
-      }
-      .research-image img {
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-      }
-      .research-title {
-        font-size: 1.8rem;
-        font-weight: 600;
-        margin-bottom: 10px;
-      }
-      .subaim-title {
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-bottom: 10px;
-      }
-      @media (max-width: 768px) {
-        .research-section {
-          flex-direction: column !important;
-        }
-        .research-image {
-          max-width: 100%;
-          margin-bottom: 20px;
-        }
-      }
-    </style>
+    <meta name="author" content="Vagheesh Narasimhan">
+    <meta name="description" content="Research areas of the Narasimhan Lab.">
+    <meta name="keywords" content="genetics, artificial intelligence, ancient DNA, aging, disease prediction">
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/academicons.min.css">
+    <link rel="stylesheet" href="/assets/css/scholar-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap">
+    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css" id="highlight_theme_light">
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%AC&lt;/text&gt;&lt;/svg&gt;">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="/assets/js/theme.js"></script>
+    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css" media="none" id="highlight_theme_dark">
+    <script>initTheme();</script>
   </head>
 
   <body class="fixed-top-nav sticky-bottom-footer">
     <header>
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/">Narasimhan Lab</a>
-          <button
-            class="navbar-toggler collapsed ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar top-bar"></span>
             <span class="icon-bar middle-bar"></span>
             <span class="icon-bar bottom-bar"></span>
           </button>
           <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <img src="/assets/img/BannerBlack.svg" alt="Narasimhan Lab" style="max-width: 350px; height: auto;">
             <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item"><a class="nav-link" href="/">about</a></li>
-              <li class="nav-item"><a class="nav-link" href="/team/">team</a></li>
-              <li class="nav-item"><a class="nav-link" href="/publications/">publications</a></li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/research/">research <span class="sr-only">(current)</span></a>
+              <li class="nav-item"><a class="nav-link" href="/">About</a></li>
+              <li class="nav-item active"><a class="nav-link" href="/research/">Research <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="/team/">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="/publications/">Publications</a></li>
+              <li class="nav-item"><a class="nav-link" href="/join/">Join</a></li>
+              <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+              <li class="nav-item">
+                <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                  <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                </button>
               </li>
-              <li class="nav-item"><a class="nav-link" href="/join/">join</a></li>
-              <li class="nav-item"><a class="nav-link" href="/contact/">contact</a></li>
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                  <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                  <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -104,104 +70,94 @@
           <h1 class="post-title">Research</h1>
         </header>
 
-        <!-- SECTION 1 HEADER -->
-        <h2 class="research-title mt-5">
-          Multi-modal AI to combine imaging and genetics to understand:
-        </h2>
+        <article class="mt-4">
+          <!-- Section 1 -->
+          <section class="mb-5">
+            <h2 class="category mb-4">Multi-modal AI to combine imaging and genetics to understand:</h2>
 
-        <!-- Aging -->
-        <section class="research-section">
-          <div class="research-image">
-            <img src="/assets/img/research_aging.jpg" alt="Aging research" />
-          </div>
-          <div class="research-text">
-            <div class="subaim-title">Aging</div>
-            <p>
-              Using advanced multi-modal AI models to map how genetic variation influences
-              age-related changes in human organs, tissues, and systems — combining imaging,
-              molecular, and clinical data for integrative understanding.
-            </p>
-          </div>
-        </section>
+            <!-- Aging -->
+            <div class="row align-items-center mb-5">
+              <div class="col-md-6">
+                <img src="/assets/img/research_aging.jpg" alt="Aging research" class="img-fluid rounded">
+              </div>
+              <div class="col-md-6">
+                <h4>Aging</h4>
+                <p>We develop machine learning models that integrate genetic, molecular, and imaging data to understand how biological systems change with age and to identify early markers of aging-related decline.</p>
+              </div>
+            </div>
 
-        <!-- Development and Degeneration -->
-        <section class="research-section" style="flex-direction: row-reverse;">
-          <div class="research-image">
-            <img src="/assets/img/research_development.jpg" alt="Development and degeneration" />
-          </div>
-          <div class="research-text">
-            <div class="subaim-title">Development and Degeneration</div>
-            <p>
-              Integrating longitudinal imaging, transcriptomic, and genomic data to track how
-              biological systems form, mature, and decline — identifying shared mechanisms between
-              development and degeneration.
-            </p>
-          </div>
-        </section>
+            <!-- Development and degeneration -->
+            <div class="row align-items-center mb-5 flex-row-reverse">
+              <div class="col-md-6">
+                <img src="/assets/img/research_development.jpg" alt="Development and degeneration" class="img-fluid rounded">
+              </div>
+              <div class="col-md-6">
+                <h4>Development and Degeneration</h4>
+                <p>By combining multi-scale imaging and genetics, our work seeks to uncover how developmental processes are encoded in the genome, and how perturbations lead to degeneration and disease.</p>
+              </div>
+            </div>
 
-        <!-- Disease Prediction -->
-        <section class="research-section">
-          <div class="research-image">
-            <img src="/assets/img/research_disease.jpg" alt="Disease prediction" />
-          </div>
-          <div class="research-text">
-            <div class="subaim-title">Disease Prediction</div>
-            <p>
-              Building interpretable, multi-modal predictors that combine imaging, omics, and
-              clinical data to anticipate disease onset and progression — enabling precision
-              preventative medicine.
-            </p>
-          </div>
-        </section>
+            <!-- Disease Prediction -->
+            <div class="row align-items-center mb-5">
+              <div class="col-md-6">
+                <img src="/assets/img/research_disease_prediction.jpg" alt="Disease prediction" class="img-fluid rounded">
+              </div>
+              <div class="col-md-6">
+                <h4>Disease Prediction</h4>
+                <p>We use multi-modal AI models to predict disease risk, understand causality, and guide precision preventative interventions across cardiovascular, metabolic, and neurological disorders.</p>
+              </div>
+            </div>
+          </section>
 
-        <!-- SECTION 2 HEADER -->
-        <h2 class="research-title mt-5">
-          Using the time dimension presented by the unique power of ancient DNA to understand the human past:
-        </h2>
+          <!-- Section 2 -->
+          <section class="mb-5">
+            <h2 class="category mb-4">Using the time dimension presented by the unique power of ancient DNA to understand the human past:</h2>
 
-        <!-- Computational Methods -->
-        <section class="research-section" style="flex-direction: row-reverse;">
-          <div class="research-image">
-            <img src="/assets/img/research_methods.jpg" alt="Computational methods for ancient DNA" />
-          </div>
-          <div class="research-text">
-            <div class="subaim-title">Building New Computational Methods for Ancient DNA</div>
-            <p>
-              Developing algorithms for recovering, authenticating, and analyzing degraded DNA
-              sequences from ancient specimens — pushing the limits of what can be learned from the
-              genetic past.
-            </p>
-          </div>
-        </section>
+            <!-- Computational methods -->
+            <div class="row align-items-center mb-5">
+              <div class="col-md-6">
+                <img src="/assets/img/research_ancientDNA_methods.jpg" alt="Ancient DNA methods" class="img-fluid rounded">
+              </div>
+              <div class="col-md-6">
+                <h4>Building New Computational Methods for Ancient DNA</h4>
+                <p>Our lab designs statistical and computational tools to analyze ancient DNA data at scale, integrating temporal information to reconstruct human population dynamics over thousands of years.</p>
+              </div>
+            </div>
 
-        <!-- Human History -->
-        <section class="research-section">
-          <div class="research-image">
-            <img src="/assets/img/research_history.jpg" alt="Human history" />
-          </div>
-          <div class="research-text">
-            <div class="subaim-title">Understanding Human History</div>
-            <p>
-              Leveraging ancient genomic time series to reconstruct migration, admixture, and
-              adaptation across thousands of years — revealing how human populations evolved and
-              interacted over time.
-            </p>
-          </div>
-        </section>
+            <!-- Human history -->
+            <div class="row align-items-center mb-5 flex-row-reverse">
+              <div class="col-md-6">
+                <img src="/assets/img/research_human_history.jpg" alt="Human history" class="img-fluid rounded">
+              </div>
+              <div class="col-md-6">
+                <h4>Understanding Human History</h4>
+                <p>Through collaborations worldwide, we leverage genomic time series data to trace human migration, admixture, and adaptation, connecting past evolutionary events to present-day genetic diversity.</p>
+              </div>
+            </div>
+          </section>
+        </article>
       </div>
     </div>
 
     <footer class="sticky-bottom mt-5" role="contentinfo">
       <div class="container">
         © Copyright 2025 Vagheesh Narasimhan. Powered by
-        <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a>
-        with
+        <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with
         <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="external nofollow noopener">al-folio</a>
         theme.
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+            crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"
+            crossorigin="anonymous"></script>
+    <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    <script defer src="/assets/js/common.js"></script>
+    <script defer src="/assets/js/progress-bar.js" type="text/javascript"></script>
   </body>
 </html>
