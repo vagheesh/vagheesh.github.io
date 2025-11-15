@@ -21,6 +21,20 @@
     <script src="/assets/js/theme.js"></script>
     <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css" media="none" id="highlight_theme_dark">
     <script>initTheme();</script>
+
+    <!-- Added for click-to-expand -->
+    <style>
+      .img-clickable {
+        cursor: zoom-in;
+        transition: 0.2s;
+      }
+      .img-clickable:hover {
+        opacity: 0.85;
+      }
+      .modal-img {
+        width: 100%;
+      }
+    </style>
   </head>
 
   <body class="fixed-top-nav sticky-bottom-footer">
@@ -137,8 +151,6 @@
                 <p>Our lab designs statistical and computational tools to analyze ancient DNA data at scale, integrating temporal information to reconstruct human population dynamics over thousands of years.</p>
               </div>
             </div>
-
-
           </section>
         </article>
       </div>
@@ -164,5 +176,33 @@
     <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
     <script defer src="/assets/js/common.js"></script>
     <script defer src="/assets/js/progress-bar.js" type="text/javascript"></script>
+
+    <!-- Added modal for image click-to-expand -->
+    <div class="modal fade" id="imgModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content bg-dark">
+          <div class="modal-body p-0">
+            <img id="imgModalSrc" class="modal-img rounded" src="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Added script to enable click-to-expand -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const modal = document.getElementById("imgModal");
+        const modalImg = document.getElementById("imgModalSrc");
+
+        document.querySelectorAll("article img").forEach(img => {
+          img.classList.add("img-clickable");
+          img.addEventListener("click", () => {
+            modalImg.src = img.src;
+            $('#imgModal').modal('show');
+          });
+        });
+      });
+    </script>
+
   </body>
 </html>
